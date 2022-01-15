@@ -1,1 +1,1 @@
-document.querySelectorAll(".mainH1") = "Together";
+document.querySelectorAll(".mainH1") = "Together!";
