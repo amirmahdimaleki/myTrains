@@ -1,4 +1,4 @@
-document.querySelectorAll(".mainH1").textContent = "Together we grow!";
+let firsText = document.querySelectorAll(".mainH1").textContent;
 const phoneModel = "xiaomi";
 const phone = {
   xiaomi: "mi note 10 lite",
