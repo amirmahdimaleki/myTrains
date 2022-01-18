@@ -11,7 +11,7 @@ const phone = {
     gpu: "aderno 618",
   },
 };
-console.log(phone[phoneModel]);
+console.log(phone[phoneModel], phone["os"]);
 // دقت در شرط گذاشتن=تکلیف بانی برای فیلتر است
 // let pairsByIndex = pairsByIndexRaw.filter(el=>(Array.isArray(el) && el.length === 2 && Number.isInteger(el[0]) && Number.isInteger(el[1])))
 
@@ -25,3 +25,11 @@ console.log(phone[phoneModel]);
 //   sorted.splice(index, 0, el);
 //   return sorted;
 // }, []);
+const flowers = {
+  lily: 12,
+  rose: 6,
+  tulip: 3,
+};
+for (let keyes in flowers) {
+  console.log(`${keyes} : ${flowers[keyes]}`);
+}
